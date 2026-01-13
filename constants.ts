@@ -1,0 +1,27 @@
+
+import { TarotCard } from './types';
+
+export const MAJOR_ARCANA: TarotCard[] = [
+  { id: '0', name: 'The Fool', name_zh: '愚者', arcana: 'Major', meaning_up: '新起点，天真，自发', meaning_rev: '鲁莽，冒险，不顾后果', description: '一个年轻人站在悬崖边缘，仰望天空。', image: 'https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg' },
+  { id: '1', name: 'The Magician', name_zh: '魔术师', arcana: 'Major', meaning_up: '显现，资源丰富，力量', meaning_rev: '操纵，计划不周，未开发的才能', description: '一个指天指地的人，桌上放着四件法器。', image: 'https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg' },
+  { id: '2', name: 'The High Priestess', name_zh: '女教皇', arcana: 'Major', meaning_up: '直觉，神圣知识，潜意识', meaning_rev: '秘密，脱离直觉，退缩', description: '一个女人坐在两根柱子之间，手里拿着卷轴。', image: 'https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg' },
+  { id: '3', name: 'The Empress', name_zh: '皇后', arcana: 'Major', meaning_up: '女性特质，美丽，自然，丰饶', meaning_rev: '创造力受阻，过度依赖他人', description: '一个慈爱的母性人物坐在大自然包围的宝座上。', image: 'https://upload.wikimedia.org/wikipedia/commons/a/af/RWS_Tarot_03_Empress.jpg' },
+  { id: '4', name: 'The Emperor', name_zh: '皇帝', arcana: 'Major', meaning_up: '权威，结构，父亲形象', meaning_rev: '专制，僵化，冷漠', description: '一个严肃的国王坐在装饰着公羊头的石质宝座上。', image: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg' },
+  { id: '5', name: 'The Hierophant', name_zh: '教皇', arcana: 'Major', meaning_up: '精神智慧，宗教信仰，传统', meaning_rev: '叛逆，个人信念，自由', description: '一位宗教领袖坐在柱子之间，为信徒祝福。', image: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg' },
+  { id: '6', name: 'The Lovers', name_zh: '恋人', arcana: 'Major', meaning_up: '爱，和谐，关系，价值观', meaning_rev: '自爱，不和谐，失衡', description: '一对情侣站在花园里的一位天使之下。', image: 'https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_06_Lovers.jpg' },
+  { id: '7', name: 'The Chariot', name_zh: '战车', arcana: 'Major', meaning_up: '控制，意志力，成功，决心', meaning_rev: '缺乏自律，反对，失去方向', description: '一位战士驾驶着由两只狮身人面像拉动的战车。', image: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg' },
+  { id: '8', name: 'Strength', name_zh: '力量', arcana: 'Major', meaning_up: '力量，勇气，说服力，影响力', meaning_rev: '自我怀疑，虚弱，原始情绪', description: '一个女人平静地合上了一头狮子的嘴。', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg' },
+  { id: '9', name: 'The Hermit', name_zh: '隐士', arcana: 'Major', meaning_up: '寻觅灵魂，反思，孤独', meaning_rev: '孤立，寂寞，退缩', description: '一位老者提着灯笼站在山顶。', image: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg' },
+  { id: '10', name: 'Wheel of Fortune', name_zh: '命运之轮', arcana: 'Major', meaning_up: '好运，业力，生命周期，命运', meaning_rev: '厄运，抵制变革，打破循环', description: '一个带有各种神秘生物的大轮子。', image: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg' },
+  { id: '11', name: 'Justice', name_zh: '正义', arcana: 'Major', meaning_up: '正义，公平，真相，因果', meaning_rev: '不公正，缺乏责任感，不诚实', description: '一个坐着的人物，手持天平和剑。', image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg' },
+  { id: '12', name: 'The Hanged Man', name_zh: '倒吊人', arcana: 'Major', meaning_up: '暂停，臣服，放手，新视角', meaning_rev: '拖延，抵制，停滞，犹豫不决', description: '一个人倒吊在树上，神情祥和。', image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg' },
+  { id: '13', name: 'Death', name_zh: '死亡', arcana: 'Major', meaning_up: '终结，变化，转型，过渡', meaning_rev: '抗拒改变，个人净化', description: '身穿盔甲的骷髅骑着一匹白马。', image: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg' },
+  { id: '14', name: 'Temperance', name_zh: '节制', arcana: 'Major', meaning_up: '平衡，节制，耐心，目的', meaning_rev: '失衡，过度，自我修复，重新调整', description: '一个天使在两个杯子之间倾倒液体。', image: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg' },
+  { id: '15', name: 'The Devil', name_zh: '恶魔', arcana: 'Major', meaning_up: '阴暗面，执念，成瘾，限制', meaning_rev: '释放束缚，探索阴暗念头', description: '一个羊头怪坐在底座上，两个人类被锁链锁住。', image: 'https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg' },
+  { id: '16', name: 'The Tower', name_zh: '高塔', arcana: 'Major', meaning_up: '突变，动荡，混乱，启示', meaning_rev: '个人转型，恐惧改变，规避灾难', description: '石塔被闪电击中，人们正从中坠落。', image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/RWS_Tarot_16_Tower.jpg' },
+  { id: '17', name: 'The Star', name_zh: '星星', arcana: 'Major', meaning_up: '希望，信念，目标，重生，灵性', meaning_rev: '缺乏信心，绝望，失去连接', description: '一个裸体女人在星空下将水倒入池塘和地面。', image: 'https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_17_Star.jpg' },
+  { id: '18', name: 'The Moon', name_zh: '月亮', arcana: 'Major', meaning_up: '幻觉，恐惧，焦虑，潜意识', meaning_rev: '释放恐惧，压抑情绪，内心困惑', description: '满月照耀在两座塔和吠叫的狗之上。', image: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/RWS_Tarot_18_Moon.jpg' },
+  { id: '19', name: 'The Sun', name_zh: '太阳', arcana: 'Major', meaning_up: '积极，快乐，温暖，成功，活力', meaning_rev: '内心童真，情绪低落，过度乐观', description: '一轮巨大的太阳照耀着骑着白马的孩子。', image: 'https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg' },
+  { id: '20', name: 'Judgement', name_zh: '审判', arcana: 'Major', meaning_up: '审判，重生，内心感召，宽恕', meaning_rev: '自我怀疑，内在批评，忽视感召', description: '天使吹响小号，人们从坟墓中升起。', image: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/RWS_Tarot_20_Judgement.jpg' },
+  { id: '21', name: 'The World', name_zh: '世界', arcana: 'Major', meaning_up: '完成，整合，成就，旅行', meaning_rev: '寻求个人了结，捷径，延误', description: '一个人在桂冠花环中跳舞，周围是四种生物。', image: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/RWS_Tarot_21_World.jpg' },
+];
